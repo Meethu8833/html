@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 50%;
+          /* padding: 10px; */
+          height: 300px; 
+        }
+        /* .new{
+            margin: 100px;
+
+        }
+         */
+         img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+         }
+         .row{
+            margin-top: 10%;
+            margin-left: 20%;
+            margin-right: 20%;
+
+         }
+         div{
+            border: 1px solid black;
+         }
+        </style>
+        </head>
+        <body>
+        
+
+        
+        <div class="row">
+          <div class="column" style="background-color:#aaa;">
+            <img src="tree.jpg" alt="alternate">
+          </div>
+          <div class="column" style="background-color:#bfd1de;">
+            <form style="margin-top: 10%; text-align: center;">
+                <label for="name" >UserName</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter UserName"><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Enter Password"><br><br>
+                <input type="submit" value="Login"><br>
+                <input type="checkbox" name="rem" id="rem">
+                <label for="rem" style="margin-right: 10%;">Remember me</label>
+                Forgot <a href="password">password?</a>
+            </form>
+          </div>
+        </div>
+        
+        </body>
+        </html>
