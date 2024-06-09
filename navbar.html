@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       ul{
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+
+        }
+        li{
+            float: left;
+        }
+        li a, .ddbtn{
+            display: inline-block;
+            color: rgb(249, 243, 243);
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+        }
+        
+        li a:hover, .dd:hover .ddbtn{
+            background-color: blueviolet;
+        }
+
+        li .dd{
+            display: inline-block;
+        }
+
+        .ddContent{
+            display: none;
+            position: absolute;
+            background-color: beige;
+            min-width: 200px;
+            box-shadow: 5px 5px 20px #aaaaaa;
+        }
+        
+        .ddContent a{
+            color: black;
+            display: block;
+            text-align: left;
+        }
+        
+        .ddContent a:hover {
+            background-color: #a8a0a0;
+        }
+        
+        .dd:hover .ddContent{
+            display: block;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="news">News</a></li>
+        <li class="dd">
+            <a href="javascript:void(0)" class="ddbtn">DropDown</a>
+            <div class="ddContent"> 
+            <a href="1">Link1</a>
+            <a href="2">Link2</a>
+            <a href="3">Link3</a></div>
+        </li>
+    </ul>
+    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, animi voluptates itaque fugit, blanditiis deleniti enim neque repudiandae doloribus cupiditate magnam? Minus at sequi facilis nesciunt asperiores. Rem, eius hic?</p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .main{
+            position: relative;
+        }
+        .tleft{
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 28px;
+        }
+        .tright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 28px;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 28px;
+        }
+        .bleft{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 28px;
+        }
+        .bright{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 28px;
+        }
+        img{
+            width: 100%;
+            height: 500px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image</h1>
+    <div class="main">
+        <img src="tree.jpg" alt="tree">
+        <div class="tleft">Top Left</div>
+        <div class="tright">Top right</div>
+        <div class="center">Centered</div>
+        <div class="bleft">Bottom Left</div>
+        <div class="bright">Bottom right</div>
+    </div>
+</body>
+</html>
