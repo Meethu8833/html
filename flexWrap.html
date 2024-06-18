@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            border: 1px solid black;
+        } */
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+        }
+
+        p {
+            margin-left: 150px;
+        }
+
+        .in{
+            flex: 33%;
+        }
+
+        @media(max-width: 800px){
+            .in{
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media(max-width: 600px){
+            .in{
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="in">
+            <img src="images.jpg" alt="alternate">
+            <p><b>Adam Jonson</b></p>
+            <p>Developer</p>
+        </div>
+
+        <div class="in">
+            <img src="tree.jpg" alt="alternate">
+            <p><b>Linda Larson</b></p>
+            <p>Manager</p>
+        </div>
+
+        <div class="in">
+            <img src="images.jpg" alt="alternate">
+            <p><b>Marry Hudson</b></p>
+            <p>Designer</p>
+        </div>
+
+        <div class="in">
+            <img src="tree.jpg" alt="alternate">
+            <p><b>Nilna Hudson</b></p>
+            <p>Designer</p>
+        </div>
+
+        <div class="in">
+            <img src="images.jpg" alt="alternate">
+            <p><b>Margo Larson</b></p>
+            <p>Manager</p>
+        </div>
+
+        <div class="in">
+            <img src="tree.jpg" alt="alternate">
+            <p><b>Nicole Scavo</b></p>
+            <p>Manager</p>
+        </div>
+
+    </div>
+</body>
+</html>

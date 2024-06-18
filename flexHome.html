@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexHome</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        /* div{
+            border: 1px solid black;
+        } */
+
+        .navmain{
+            display: flex;
+            /* background-color: rgb(229, 217, 203); */
+            padding-top: 1%;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(49, 47, 47);
+        }
+        .nav2 li{
+            display: inline;
+            padding: 10px;
+        }
+        .nav1{
+            width: 60%;
+            padding: 10px;
+            padding-left: 50px;
+        }
+        .nav2{
+            width: 40%;
+        }
+        .nav1 p{
+            font-size: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .bdy{
+            width: 50%;
+            /* border: 1px solid black; */
+            padding: 4%;
+        }
+        .btn{
+            padding-top: 10px;
+        }
+        .bdymain{
+            display: flex;
+        }
+        .nav2 a:hover{
+            background-color: beige;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navmain">
+        <div class="nav1">
+           <!-- <p> <i class="fa-solid fa-d"></i>elivery </p> -->
+            <img src="Deliv.png" alt="img">
+        </div>
+        <div class="nav2" >
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="works">How it Works</a></li>
+                <li><a href="testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bdymain">
+    <div class="bdy">
+        <div>
+            <p style="font-size: 50px;"><b>Home Delivery</b> From <br>Stores Near You</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam dolorum aut, tempore laborum et in aspernatur sed, eius magni quaerat optio qui modi sint quos molestias ipsam saepe repudiandae deleniti?</p>
+        </div>
+        <div class="btn">
+            <input type="submit" value="Download App " style="background-color: rgb(203, 70, 70);border-radius: 5px;color: white;height: 35px;width: 140px;border: none;">
+        </div>
+    </div>
+
+    <div>
+        <img src="bodypic.png" alt="img">
+    </div>
+</div>
+</body>
+</html>
